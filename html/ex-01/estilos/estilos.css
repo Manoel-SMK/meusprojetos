@@ -71,7 +71,8 @@ body{   box-sizing: border-box;
 
 .texto-inicial-do-site{
     font-family: var(--fonte-primaria);
-    font-size: 3.12rem ;
+    font-size: 3.5rem;
+    width: 100%;
     
 }
 
@@ -207,7 +208,17 @@ color: var(--cor-primaria);
     justify-content: center;
 
 }
-    .apresentacao-do-site{
+.apresentacao-do-site{
+    flex-direction: column-reverse;
+    padding: 5%;
+}
+
+.apresentacao-do-site-02{
+    flex-direction: column-reverse;
+    padding: 5%;
+
+}
+.apresentacao-do-site-03{
     flex-direction: column-reverse;
     padding: 5%;
 }
@@ -215,5 +226,12 @@ color: var(--cor-primaria);
     width: auto;
 }
 
+
+.texto-inicial-do-site{
+    
+
+    font-size: 1.8rem;
+    
+}
 
 }
